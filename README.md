@@ -12,4 +12,8 @@
 
 ![mock](/mocks/lesson02.png)
 
+## 学べる知識
+
+- React の Component 内の JSX に HTML を書く
+
 ※完成コードは[次の Lesson](https://github.com/prog-learning/lesson-ikina-react/tree/lesson03)
