@@ -1,4 +1,4 @@
-
+import Item from './Item';
 
 const App = () => {
 
@@ -11,9 +11,9 @@ const App = () => {
         <button>create</button>
       </div>
       <ul style={{ listStyle: 'none' }}>
-        <List content='プログラミングを勉強する' />
-        <List content='運動をして生産性を上げる' />
-        <List content='宝くじを当てる' />
+        <Item content='プログラミングを勉強する' />
+        <Item content='運動をして生産性を上げる' />
+        <Item content='宝くじを当てる' />
       </ul>
     </div>
   );
