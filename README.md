@@ -1,12 +1,12 @@
 # Lesson Sudden React / いきなりあくと
 
-## Lesson07
+## Lesson09
 
-バリデーションをしよう
+coming soon...
 
-- [ ] create button の onClick の処理は,addTodo という名前の関数を作り,それを実行するようにする
-- [ ] input に何も入力されていないときは todo を追加できないようにし,「入力してください！」と alert を表示する
-- [ ] todo に追加したあとは input の中身を空にする
-
-※今回の機能は useState を学ぶためのもので,TODOLIST 作りには影響はないので,消しても OK
-※完成コードは[次の Lesson](/lesson05)
+- 完了機能の追加
+- 削除機能の追加
+- API を使って todoList のデータを取得して表示する
+- スタイルを当てておしゃれに
+- 入力フォームを Modal に
+- todo にメモが追加できるように
