@@ -10,14 +10,23 @@ const App = () => {
     '宝くじを当てる',
   ]);
 
+  const addTodo = () => {
+    if (inputText) {
+      setTodoList([...todoList, inputText]);
+      setInputText('');
+    } else {
+      alert('入力してください！');
+    }
+  };
+
   return (
     <div>
       <h1>{title}</h1>
       <button onClick={() => setTitle('TO DO LIST.')}>change title</button>
       <div>
         <h3>Create new todo</h3>
-        <input type="text" onChange={(e) => setInputText(e.target.value)} />
-        <button onClick={() => setTodoList([...todoList, inputText])}>create</button>
+        <input type="text" value={inputText} onChange={(e) => setInputText(e.target.value)} />
+        <button onClick={addTodo}>create</button>
       </div>
       <List todoList={todoList} />
     </div>
