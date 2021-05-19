@@ -3,15 +3,15 @@ import List from './List';
 
 const App = () => {
   const [title, setTitle] = useState("JUST DO IT.");
-  const [inputText, setInputText] = useState("");
   const [todoList, setTodoList] = useState([
     'プログラミングを勉強する',
     '運動をして生産性を上げる',
     '宝くじを当てる',
   ]);
+  const [inputText, setInputText] = useState("");
 
   const addTodo = () => {
-    if (inputText) {
+    if (inputText) { // inputTextの中身があるとき
       setTodoList([...todoList, inputText]);
       setInputText('');
     } else {

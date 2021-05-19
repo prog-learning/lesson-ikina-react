@@ -10,4 +10,6 @@
 
 ※今回の Lesson の解決方法は複数ある.完成コードでは`const [inputText, setInputText] = useState('');`の記述を`Form.jsx`にしているが,`App.jsx`に記述するパターンも試してみてほしい.
 
-※完成コードは[次の Lesson](/lesson05)
+## 学べる知識
+
+※完成コードは[次の Lesson](https://github.com/prog-learning/lesson-ikina-react/tree/lesson09)
