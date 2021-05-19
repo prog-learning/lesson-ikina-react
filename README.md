@@ -12,4 +12,4 @@
 
 ![mock](/mocks/lesson02.png)
 
-※完成コードは[次の Lesson](/lesson03)
+※完成コードは[次の Lesson](/tree/lesson03)
