@@ -1,11 +1,12 @@
 # Lesson Sudden React / いきなりあくと
 
-## Lesson05
+## Lesson06
 
-useState の使って表示される内容を変更しよう！
+入力した値を todoList に追加してみよう
 
-- [ ] `const [title, setTitle] = useState("JUST DO IT.");`と書き,h1 タグ内をこの`title`に書き換える
-- [ ] `<button>change title</button>`を追加し,これを押すとタイトルが`TO DO LIST.`に変更されるようにする
+- [ ] useState を使って todoList を管理する
+- [ ] `<button>create</button>`を押したときに`8時間休まずゲームをする`が todoList に追加されるようにする
+- [ ] `<button>create</button>`を押したときに input タグに入力された値が todoList に追加されるようにする
 
 ※今回の機能は useState を学ぶためのもので,TODOLIST 作りには影響はないので,消しても OK
 ※完成コードは[次の Lesson](/lesson05)
