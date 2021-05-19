@@ -4,8 +4,8 @@
 
 ## 必要な準備
 
-- [] 推奨版[node.js](https://nodejs.org/ja/) のインストール
-- [] [yarn](https://yarnpkg.com/getting-started/install) のインストール
+- [ ] 推奨版[node.js](https://nodejs.org/ja/) のインストール
+- [ ] [yarn](https://yarnpkg.com/getting-started/install) のインストール
 
 ### 確認方法
 
