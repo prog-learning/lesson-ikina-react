@@ -3,8 +3,9 @@ import { useState } from 'react';
 const Form = ({ addTodo }) => {
   const [inputText, setInputText] = useState('');
 
+  /* setInputText('') を追加した関数を定義 */
   const addTodoAndReset = () => {
-    addTodo(inputText);
+    addTodo(inputText); // このinputTextがaddTodoの引数のcontentとして渡される
     setInputText('');
   };
 

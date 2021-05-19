@@ -9,12 +9,15 @@ const App = () => {
     '宝くじを当てる',
   ]);
 
+  /* contentという名前で引数を設定 */
   const addTodo = (content) => {
+    /* このcontentは関数の中だけで使用可能 */
     if (content) {
       setTodoList([...todoList, content]);
     } else {
       alert('入力してください！');
     }
+    /* setInputText('') はここには書けない */
   };
 
   return (
