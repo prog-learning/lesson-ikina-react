@@ -9,4 +9,9 @@ JavaScript の map メソッドを使って,コンポーネントを繰り返し
 - [ ] `List.jsx`というファイルを作成し List コンポーネントを作成する
 - [ ] `App.jsx`における ul タグを List に置き換え,「App の中に List があり,List の中に Item がある」という構造にする
 
-※完成コードは[次の Lesson](/lesson05)
+## 学ぶことになる知識
+
+- 配列
+- map メソッド
+
+※完成コードは[次の Lesson](https://github.com/prog-learning/lesson-ikina-react/tree/lesson05)
