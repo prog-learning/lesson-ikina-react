@@ -3,7 +3,6 @@ import List from './List';
 import Form from './Form';
 
 const App = () => {
-  const [title, setTitle] = useState("JUST DO IT.");
   const [todoList, setTodoList] = useState([
     'プログラミングを勉強する',
     '運動をして生産性を上げる',
@@ -20,8 +19,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>{title}</h1>
-      <button onClick={() => setTitle('TO DO LIST.')}>change title</button>
+      <h1>TO DO LIST.</h1>
       <Form addTodo={addTodo} />
       <List todoList={todoList} />
     </div>
