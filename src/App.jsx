@@ -1,10 +1,13 @@
+import { useState } from 'react';
 import Item from './Item';
 
 const App = () => {
+  const [title, setTitle] = useState("JUST DO IT.");
 
   return (
     <div>
-      <h1>JUST DO IT.</h1>
+      <h1>{title}</h1>
+      <button onClick={() => setTitle('TO DO LIST.')}>change title</button>
       <div>
         <h3>Create nex todo</h3>
         <input type="text" />
