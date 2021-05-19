@@ -1,3 +1,10 @@
 # Lesson Sudden React / いきなりあくと
 
-`yarn install`
+初学者が,いきなりモダンな JavaScript のライブラリの React を学ぶための Lesson
+
+## Lessons
+
+ざっくり内容
+
+- HTML/CSS をざっくり学ぶ
+-
