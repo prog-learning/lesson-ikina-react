@@ -8,8 +8,8 @@
 - [ ] ターミナルで`yarn start`と叩き,アプリを起動する
       （自動でブラウザが開かない場合は`http://localhost:3000/`へアクセスする）
 - [ ] ブラウザで`Hello React!!`を確認する
-- [ ] App.jsx ファイルの return 内にコードを書き,Mock 画像のような見た目にする
+- [ ] src フォルダ内の`App.jsx`ファイルの return 内に HTML を書き, 下の画像のような見た目にする
 
 ![mock](/mocks/lesson02.png)
 
-※完成コードは[次の Lesson](/tree/lesson03)
+※完成コードは[次の Lesson](https://github.com/prog-learning/lesson-ikina-react/tree/lesson03)

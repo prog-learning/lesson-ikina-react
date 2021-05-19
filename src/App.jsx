@@ -1,6 +1,12 @@
 const App = () => {
+  /* JavaScript書くところ */
+
   return (
-    <h1>Hello React!!</h1>
+    /* JSX...HTMLを書くところ（JavaScriptを書くときは{ }で囲う） */
+    <div>
+      <h1>Hello React!!</h1>
+      {/* ここにコードを書く */}
+    </div>
   );
 };
 
