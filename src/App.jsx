@@ -3,12 +3,12 @@ import List from './List';
 
 const App = () => {
   const [title, setTitle] = useState("JUST DO IT.");
-
-  const todoList = [
+  const [inputText, setInputText] = useState("");
+  const [todoList, setTodoList] = useState([
     'プログラミングを勉強する',
     '運動をして生産性を上げる',
     '宝くじを当てる',
-  ];
+  ]);
 
   return (
     <div>
@@ -16,8 +16,8 @@ const App = () => {
       <button onClick={() => setTitle('TO DO LIST.')}>change title</button>
       <div>
         <h3>Create new todo</h3>
-        <input type="text" />
-        <button>create</button>
+        <input type="text" onChange={(e) => setInputText(e.target.value)} />
+        <button onClick={() => setTodoList([...todoList, inputText])}>create</button>
       </div>
       <List todoList={todoList} />
     </div>
