@@ -10,15 +10,15 @@ const App = () => {
       <ul>
         <li>
           <input type="checkbox" />
-          <span>皿洗い</span>
+          <span>プログラミングを勉強する</span>
         </li>
         <li>
           <input type="checkbox" />
-          <span>筋トレ</span>
+          <span>運動をして生産性を上げる</span>
         </li>
         <li>
           <input type="checkbox" />
-          <span></span>
+          <span>宝くじを当てる</span>
         </li>
       </ul>
     </div>
