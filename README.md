@@ -11,4 +11,6 @@
 
 ## 学べる知識
 
+- onChange イベント
+
 ※完成コードは[次の Lesson](https://github.com/prog-learning/lesson-ikina-react/tree/lesson07)
