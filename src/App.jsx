@@ -6,7 +6,7 @@ const App = () => {
     <div>
       <h1>JUST DO IT.</h1>
       <div>
-        <h3>Create nex todo</h3>
+        <h3>Create new todo</h3>
         <input type="text" />
         <button>create</button>
       </div>
