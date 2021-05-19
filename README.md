@@ -2,7 +2,7 @@
 
 ## Lesson06
 
-入力した値を todoList に追加してみよう
+フォームに入力した値を todoList に追加してみよう
 
 - [ ] useState を使って todoList を管理する
 - [ ] `<button>create</button>`を押したときに`8時間休まずゲームをする`が todoList に追加されるようにする
