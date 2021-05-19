@@ -1,5 +1,9 @@
 # Lesson Sudden React / いきなりあくと
 
+```
+お疲れさまでした！ここまでが第1セクションとなります！
+```
+
 ## Lesson09
 
 coming soon...
