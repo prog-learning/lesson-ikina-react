@@ -9,5 +9,6 @@
 - [ ] input タグの onChange イベントを利用して,入力された値を useState で管理する
 - [ ] `<button>create</button>`を押したときに input タグに入力された値が todoList に追加されるようにする
 
-※今回の機能は useState を学ぶためのもので,TODOLIST 作りには影響はないので,消しても OK
-※完成コードは[次の Lesson](/lesson05)
+## 学べる知識
+
+※完成コードは[次の Lesson](https://github.com/prog-learning/lesson-ikina-react/tree/lesson07)
