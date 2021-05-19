@@ -1,19 +1,18 @@
 import { useState } from 'react';
 import List from './List';
+import Form from './Form';
 
 const App = () => {
   const [title, setTitle] = useState("JUST DO IT.");
-  const [inputText, setInputText] = useState("");
   const [todoList, setTodoList] = useState([
     'プログラミングを勉強する',
     '運動をして生産性を上げる',
     '宝くじを当てる',
   ]);
 
-  const addTodo = () => {
-    if (inputText) {
-      setTodoList([...todoList, inputText]);
-      setInputText('');
+  const addTodo = (content) => {
+    if (content) {
+      setTodoList([...todoList, content]);
     } else {
       alert('入力してください！');
     }
@@ -23,11 +22,7 @@ const App = () => {
     <div>
       <h1>{title}</h1>
       <button onClick={() => setTitle('TO DO LIST.')}>change title</button>
-      <div>
-        <h3>Create new todo</h3>
-        <input type="text" value={inputText} onChange={(e) => setInputText(e.target.value)} />
-        <button onClick={addTodo}>create</button>
-      </div>
+      <Form addTodo={addTodo} />
       <List todoList={todoList} />
     </div>
   );
