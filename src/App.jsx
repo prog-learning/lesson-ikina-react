@@ -1,7 +1,7 @@
 import List from './List';
 
 const App = () => {
-
+  /* todoの内容を配列として列挙 */
   const todoList = [
     'プログラミングを勉強する',
     '運動をして生産性を上げる',
