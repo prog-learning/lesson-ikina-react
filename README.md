@@ -2,9 +2,9 @@
 
 ## Lesson03
 
-実際に React を起動し,必要なレイアウトを自分で作成しよう！
+コンポーネントを作成し,props を渡して表示してみよう
 
 - [] li の黒ポチを消す
 - []
 
-※完成コードは[次の Lesson](/lesson03)
+※完成コードは[次の Lesson](https://github.com/prog-learning/lesson-ikina-react/tree/lesson03)
