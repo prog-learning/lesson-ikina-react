@@ -15,4 +15,4 @@
 - React の Component の作成方法と使用方法
 - React の Component への props の渡し方と受取り方と表示方法
 
-※完成コードは[次の Lesson](/lesson04)
+※完成コードは[次の Lesson](lesson04)
